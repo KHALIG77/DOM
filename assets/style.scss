@@ -1,0 +1,60 @@
+.login-section{
+    transition: 2s;
+    opacity: 0;
+   
+}
+.db-none{
+    display: none; 
+    
+}
+
+.info-check{
+    font-weight: 400;
+    transition: 1s;
+    color:red;
+}
+.opacity{
+    opacity: 1;
+    transition: 2s;
+}
+.opacity-none{
+    opacity: 0;
+    
+}
+.text-center{
+    transition: 2s;
+}
+.singUpCheck{
+    font-size: 20px;
+    font-weight: 400;
+    color:red;
+}
+.info{
+    height: 100vh;
+    transition: 2s;
+    background-color:rgb(34, 30, 30);
+    .container-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .info-box{
+        width: 400px;
+        min-height: 300px;
+        margin-top:15%;
+        border-radius: 20%;
+        background-color:rgb(97, 92, 92) ;
+        transition: 2s;
+        h4{
+
+            font-size:20px;
+            font-weight: 200;
+            text-align:center;
+            color:white;
+            margin-top:80px;
+            line-height: 35px;
+        }
+    }
+
+}
